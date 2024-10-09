@@ -12,3 +12,6 @@
     font-size: larger;
     place-content: middle;
   }
+  .center-text {
+    text-align: center;
+}
