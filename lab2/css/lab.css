@@ -8,8 +8,8 @@
     background-color: #bf1212;
   }
   h1 {
-    color: red;
-    font-size: 200%;
+    color: rgb(134, 0, 0);
+    font-size: 500%;
     place-content: middle;
   }
   .center-text {
