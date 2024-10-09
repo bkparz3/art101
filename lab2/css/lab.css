@@ -4,6 +4,11 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 10px #3a40fb;
     background-color: #DDD8C4;
+  }
+  h1 {
+    color: red;
+    font-size: larger;
+    place-content: middle;
   }
