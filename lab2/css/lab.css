@@ -9,7 +9,7 @@
   }
   h1 {
     color: red;
-    font-size: larger;
+    font-size: 200%;
     place-content: middle;
   }
   .center-text {
