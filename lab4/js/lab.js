@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: ben parzych
-// Date: 10/15/24
+// index.js - learning psuedocode (simple game)
+// Author: ben parzych <bparzych@ucsc.edu>
+// Date: October 2024
 
 // Constants
 
