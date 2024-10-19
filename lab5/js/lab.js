@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Data Types and Variables
+// Author: ben parzych <bparzych@ucsc.edu>
+// Date: October 2024
+
 
 // Constants
 
