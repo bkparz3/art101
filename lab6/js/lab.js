@@ -16,7 +16,10 @@ function main() {
 // let's get this party started
 main();
 // Define Variables
-const myTransport = ["car", "bike", "scooter", "legs"];
+const myTransport = ["car", 
+  "bike", 
+  "scooter", 
+  "legs"];
 
 //create an object for my main ride
 var myMainRide = {
