@@ -73,7 +73,5 @@ document.writeln("<div class='name'>" + randomName + "</div>")
 }
 
 
-
-
 main();
 
