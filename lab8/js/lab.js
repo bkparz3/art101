@@ -1,4 +1,4 @@
-// index.js - Functions
+// index.js - Anon Functions and Callbacks
 // Author: ben parzych <bparzych@ucsc.edu>
 // Date: October 2024
 
@@ -16,4 +16,22 @@ function main() {
 // let's get this party started
 main();
 
+function isEven(x){
+  return (x % 2 == 0);
+}
 
+console.log("is 1 even? ", isEven(1));
+console.log("is 2 even? ", isEven(4));
+
+array = [120, 3, 8, 10000, 44, 90, 54]
+console.log("My array", array);
+
+var result = array.map(isEven);
+
+console.log("Test of evenness of array:", result);
+
+var result = array.map(function(x){
+  return x ** 0.5;
+})
+
+console.log("Squareroot of array:", result);
