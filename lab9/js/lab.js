@@ -25,19 +25,19 @@ $("button-challenge").click(function(){
 });
 
 // add button to challenge section
-$("#Problems").append("<button id='button-problems'>Make Special</button>");
+$("#problems").append("<button id='button-problems'>Make Special</button>");
 
 // add a click listener to the challenge button
 $("button-problems").click(function(){
   // now add (or subtract) the "special" class to the section
-  $("#Problems").toggleClass("special");
+  $("problems").toggleClass("special");
 });
 
 // add button to challenge section
-$("#Results").append("<button id='button-results'>Make Special</button>");
+$("#results").append("<button id='button-results'>Make Special</button>");
 
 // add a click listener to the challenge button
 $("button-results").click(function(){
   // now add (or subtract) the "special" class to the section
-  $("#Results").toggleClass("special");
+  $("#results").toggleClass("special");
 });
