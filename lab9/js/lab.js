@@ -41,3 +41,14 @@ $("button-results").click(function(){
   // now add (or subtract) the "special" class to the section
   $("#results").toggleClass("special");
 });
+
+$(document).ready(function() {
+  // Append button to Challenge section
+  $('#challenge').append('<button id="challengeButton">Challenge Button</button>');
+
+  // Append button to Problems section
+  $('#problems').append('<button id="problemsButton">Problems Button</button>');
+
+  // Append button to Results section
+  $('#results').append('<button id="resultsButton">Results Button</button>');
+});
