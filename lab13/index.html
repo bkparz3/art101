@@ -41,12 +41,37 @@
 					<h2>Results</h2>
 					<p></p>
 		</div>
+		<div id="input">
+			Where should we stop? <input type="number" min="0" max="1000" id="max"><br>
+			Which factors should print hwat?<br>
+			<table>
+				<tr>
+					<th>Factor</th>
+					<th>PPrints what?</th>
+				</tr>
+				<tr>
+					<td><input type="number" min=0 max="23" id="num0"></td>
+					<td><input type="text" id="text0"></td>
+				</tr>
+				<tr>
+					<td><input type="number" min=0 max="23" id="num1"></td>
+					<td><input type="text" id="text1"></td>
+				</tr>
+				<tr>
+					<td><input type="number" min=0 max="23" id="num2"></td>
+					<td><input type="text" id="text2"></td>
+				</tr>
+				<tr>
+					<td><input type="number" min=0 max="23" id="num3"></td>
+					<td><input type="text" id="text3"></td>
+				</tr>
+			</table>
+			<button id="submit">Run</button>
+		</div>
 			<div class="input-output">
 				<div id="input-output"></div>
 				<h2>Output</h2>
-
-				<div id="output">
-				</div>
+				<div id="output"></div>
 		</div>
 			<div class="linkbox">
 			<a class="sourcelink" href="js/lab.js" target="source">JavaScript Source &gt;&gt;</a>
